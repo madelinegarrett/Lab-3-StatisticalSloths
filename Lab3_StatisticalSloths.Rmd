@@ -55,7 +55,11 @@ ggplot(data = cdc) +
 
 
 Kevin Plot 
-
+```{r}
+ggplot(data = cdc) + 
+  geom_bar(mapping = aes(x = genhlth), color = "orange") + 
+  facet_grid( ~ exerany)
+```
 
 
 
