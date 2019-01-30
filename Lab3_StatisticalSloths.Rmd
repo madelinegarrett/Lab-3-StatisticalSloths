@@ -49,7 +49,7 @@ Katie Plot
 
 ```{r}
 ggplot(data = cdc) +
-  geom_bar(mapping = aes(x = gender, color = genhlth)) +
+  geom_bar(mapping = aes(x = gender, fill = genhlth)) +
   facet_grid(smoke100~genhlth)
 ```
 
