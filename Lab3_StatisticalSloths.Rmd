@@ -46,7 +46,11 @@ Zandy Plot
 
 Katie Plot 
 
-
+```{r}
+ggplot(data = cdc) +
+  geom_bar(mapping = aes(x = gender, color = genhlth)) +
+  facet_grid(smoke100~genhlth)
+```
 
 
 Kevin Plot 
