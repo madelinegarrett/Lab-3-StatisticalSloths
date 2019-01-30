@@ -47,6 +47,13 @@ geom_bar(mapping = aes(x = age, fill = genhlth
 
 Katie Plot 
 
+NEW PLOT
+```{r}
+ggplot(data = cdc) +
+  geom_bar(mapping = aes(x= age, fill = genhlth)) +
+  facet_grid(smoke100~genhlth)
+```
+OLD PLOT(Now for group plot)
 ```{r}
 ggplot(data = cdc) +
   geom_bar(mapping = aes(x = gender, fill = genhlth)) +
