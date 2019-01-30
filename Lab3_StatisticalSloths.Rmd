@@ -22,6 +22,11 @@ ggplot(data = cdc) +
   geom_jitter(mapping = aes(x = height, y = weight, color= genhlth)) + 
   facet_grid(smoke100~genhlth)
 ```
+```{r}
+ggplot(data = cdc) + 
+  geom_jitter(mapping = aes(x = age, y = gender, color= genhlth)) + 
+  facet_grid(smoke100~genhlth)
+```
 
 Answer to the overall question and our teams recommendation
 
