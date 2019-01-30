@@ -13,24 +13,36 @@ cdc <- as_tibble(cdc)
 ```
 
 Overall question, why it’s important, and why that’s important
-## What is the relationship between weight and height controlling for effects of the general health and smoking coverage? 
-* This question is important because ... and this is important because...
+## What is the relationship between general health and smoking controlling for gender? 
+* This is an interesting question because the answer could help us to a better understand how smoking impacts ones general health and well being specificallt looking at male and female. This is important because knowing this may help to discourage people from smoking, starting smoking, and encourage those who want to improve their general well being to stop smoking. 
 
-(TEAM PLOT HERE )
+(TEAM PLOT HERE ) *Check that this has all the requirments
+
 ```{r}
-ggplot(data = cdc) + 
-  geom_jitter(mapping = aes(x = height, y = weight, color= genhlth)) + 
-  facet_grid(smoke100~genhlth)
+ggplot(data = cdc) +
+  geom_bar(mapping = aes(x = gender, fill= genhlth)) +
+  facet_grid(smoke100~genhlth)+
+  ggtitle('General Health vs. Smoking')
 ```
 
-Answer to the overall question and our teams recommendation
+
+###Our Findings
+
+Our team saw that for both men and women there were more people in that felt excellent that were non-smokers than those who did smoke. More people felt poorly if they did smoke than those who did not. In general more men smoked than women.
+
+###Our Conclusions 
+
+*Fill in conclusions here*
 
 
+###Our Reccomendation 
 
-A series of findings and plots (individual parts of the lab)
-INDIVIDUAL PLOTS 
+*Fill in Recommendation "A “Recommendation” is a suggested action or series of actions. For this lab report, we will assume that your team has been hired by the Centers for Disease Control and Prevention (CDC) to analyze their 2000 dataset to answer your overall question and make a recommendation for a change in policy. You may use your creativity in this case to recommend new policy or perhaps your recommendation will be to analyze new data. If that’s the case, be specific about what new question your new analyses would attempt to answer."*
 
-Madeline PLot 
+
+Madeline's PLot
+
+Madeline's Finding's
 
 ```{r}
 ggplot(data = cdc) + 
@@ -47,25 +59,19 @@ geom_bar(mapping = aes(x = age, fill = genhlth
 
 Katie Plot 
 
-NEW PLOT
 ```{r}
 ggplot(data = cdc) +
-  geom_bar(mapping = aes(x= age, fill = genhlth)) +
+  geom_bar(mapping = aes(x = gender, fill() = genhlth)) +
   facet_grid(smoke100~genhlth)
-```
-OLD PLOT(Now for group plot)
-```{r}
-ggplot(data = cdc) +
-  geom_bar(mapping = aes(x = gender, fill = genhlth)) +
-  facet_grid(smoke100~genhlth)
+
 ```
 
 
 Kevin Plot 
 ```{r}
 ggplot(data = cdc) + 
-  geom_bar(mapping = aes(x = genhlth), color = "orange") + 
-  facet_grid( ~ exerany)
+  geom_bar(mapping = aes(x = genhlth)) + 
+  facet_wrap( ~ exerany)
 ```
 
 
