@@ -1,0 +1,69 @@
+---
+title: "Lab3_StatisticalSloths"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+library(tidyverse)
+source("http://www.openintro.org/stat/data/cdc.R")
+cdc <- as_tibble(cdc)
+```
+
+Overall question, why it’s important, and why that’s important
+## What is the relationship between weight and height controlling for effects of the general health and health plan coverage? 
+* This question is important because ... and this is important because...
+
+(TEAM PLOT HERE )
+```{r}
+ggplot(data = cdc) + 
+  geom_jitter(mapping = aes(x = height, y = weight, color= genhlth)) + 
+  facet_grid(hlthplan~genhlth)
+```
+Answer to the overall question and our teams recommendation
+
+
+
+A series of findings and plots (individual parts of the lab)
+INDIVIDUAL PLOTS 
+
+Madeline PLot 
+
+```{r}
+ggplot(data = cdc) + 
+  geom_bar(mapping = aes(x =hlthplan, fill= genhlth))
+```
+
+```{r}
+ggplot(data = cdc, mapping = aes(x = hlthplan, fill = genhlth)) + 
+  geom_bar(alpha = 1/5, position = "identity")
+```
+
+```{r}
+ggplot(data = cdc) + 
+  geom_bar(mapping = aes(x = hlthplan, fill = genhlth), position = "fill")
+```
+
+
+
+
+Zandy Plot 
+
+
+
+Katie Plot 
+
+
+
+
+Kevin Plot 
+
+
+
+
+The summary of who did what.
+
+
+
