@@ -78,7 +78,7 @@ ggplot(data = cdc) +
   theme(axis.text.x = element_text(angle=17))
 ```
 Kevin's Findings: 
-* There are more people reporting better health levels and less reporting poor health levels among those who have exercised. I used the geom_jitter function and adjusted the color of the general health levels. In addition I used the facet_wrap function to clearly display the difference in the levels of those who exercise and those who do not. I also changed the axis labels to display the full word rather than just the abbreviations and I rotated the x tick mark labels so that they did not overlap.
+* There are more people reporting better health levels and less reporting poor health levels among those who have exercised.
 
 Team Summary:
 
@@ -86,4 +86,4 @@ Team Summary:
 
 * I, Zandy Boone, created a plot that shows the relationship with age and general health with the added varibale of the people having a health plan or not and how that affects general health. I added the facet_wrap to differentiate between people with a helthplan and those without and I also added a x label to make the graph easier to read.
 
-* I, Kevin Luth, created a plot showing how general health and exercise are related and whether age affects this relationship. The data showed that regardless of age, there is a distinct difference in the general health levels of those who have exercised in the last month and those who have not.
+* I, Kevin Luth, created a plot showing how general health and exercise are related and whether age affects this relationship. The data showed that regardless of age, there is a distinct difference in the general health levels of those who have exercised in the last month and those who have not. I used the geom_jitter function and adjusted the color of the general health levels. In addition I used the facet_wrap function to clearly display the difference in the levels of those who exercise and those who do not. I also changed the axis labels to display the full word rather than just the abbreviations and I rotated the x tick mark labels so that they did not overlap.
