@@ -71,8 +71,11 @@ ggplot(data = cdc) +
 Kevin Plot 
 ```{r}
 ggplot(data = cdc) + 
-  geom_bar(mapping = aes(x = genhlth)) + 
-  facet_wrap( ~ exerany)
+  geom_jitter(mapping = aes(x = genhlth, y = age, color = genhlth)) + 
+  facet_wrap(~ exerany) + 
+  xlab("General Health") + 
+  ylab("Age") + 
+  theme(axis.text.x = element_text(angle=17))
 ```
 
 
