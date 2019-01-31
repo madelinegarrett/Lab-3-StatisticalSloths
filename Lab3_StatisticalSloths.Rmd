@@ -28,7 +28,7 @@ ggplot(data = cdc) +
 
 ###Our Findings
 
-Our team saw that for both men and women there were more people that had excellent health that were non-smokers than those who did smoke. More people had poor health if they did smoke than those who did not. In general more men smoked than women.
+Our team saw that for both men and women there were more people with excellent health that were non-smokers than those who did smoke. More people had poor health if they did smoke than those who did not. In general more men smoked than women.
 
 ###Our Conclusions 
 
