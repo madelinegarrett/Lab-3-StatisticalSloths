@@ -59,7 +59,6 @@ Katie Plot
 ggplot(data = cdc) +
   geom_bar(mapping = aes(x = age, fill = genhlth)) +
   facet_grid(smoke100~genhlth)
-
 ```
 
 Kevin's Plot 
