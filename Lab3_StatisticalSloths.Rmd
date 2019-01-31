@@ -50,7 +50,9 @@ ggplot(data = cdc) +
 Zandy Plot 
 ```{r}
 ggplot(data = cdc) +
-geom_bar(mapping = aes(x = age, fill = genhlth
+geom_bar(mapping = aes(x = age, fill = genhlth)) +
+facet_wrap(~ hlthplan) +
+xlab("age")
 ```
 
 Katie Plot 
