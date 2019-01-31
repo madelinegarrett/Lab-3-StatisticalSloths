@@ -53,18 +53,19 @@ ggplot(data = cdc) +
 geom_bar(mapping = aes(x = age, fill = genhlth)) +
 facet_wrap(~ hlthplan) +
 xlab("age")
-
+```
 Zandy's Findings:
 I, Zandy Boone, created a plot that shows the relationship with age and general health with the added varibale of the people having a health plan or not and how that affects general health. What I found was that as age goes up general health goes down while people with a healthplan overall, have better health than people who don't have a health plan. This plot confirms that as you get older, your health deteriorates and that people with a healthplan have better health overall than people without a health plan.
-```
 
 Katie Plot 
 
 ```{r}
 ggplot(data = cdc) +
   geom_bar(mapping = aes(x = age, fill = genhlth)) +
-  facet_grid(smoke100~genhlth)
+  facet_grid(smoke100~genhlth) 
 ```
+Katie's Findings:
+* I, Katie Stewart, created a plot showing how general health and smoking were related and how they differ between age groups. The data showed that those who smoke and are over the age of around 40 are more susceptible to having poor or fair health. I used the geom_bar function to create my graph and added a color fill. I also used the facet_grid function to make it easier to distinguish between those who smoke and those who do not among their age groups. 
 
 Kevin's Plot 
 ```{r}
@@ -80,4 +81,3 @@ Kevin's Findings:
 
 Team Summary:
 
-* I, Katie Stewart, created a plot showing how general health and smoking were related and how they differ between age groups. The data showed that those who smoke and are over the age of around 40 are more susceptible to having poor or fair health. I used the geom_bar function to create my graph and added a color fill. I also used the facet_grid function to make it easier to distinguish between those who smoke and those who do not among there age groups. 
