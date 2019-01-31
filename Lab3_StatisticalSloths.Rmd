@@ -14,7 +14,7 @@ cdc <- as_tibble(cdc)
 
 Overall question, why it’s important, and why that’s important
 ## What is the relationship between general health and smoking controlling for gender? 
-* This is an interesting question because the answer could help us to a better understand how smoking impacts ones general health and well being specificallt looking at male and female. This is important because knowing this may help to discourage people from smoking, starting smoking, and encourage those who want to improve their general well being to stop smoking. 
+* This is an interesting question because the answer could help us to find a better understand of how smoking impacts ones general health and well being specifically looking at males and females. This is important because knowing this may help to discourage people from smoking, starting smoking, and encourage those who want to improve their general well being to stop smoking. 
 
 (TEAM PLOT HERE ) *Check that this has all the requirments
 
@@ -28,7 +28,7 @@ ggplot(data = cdc) +
 
 ###Our Findings
 
-Our team saw that for both men and women there were more people in that felt excellent that were non-smokers than those who did smoke. More people felt poorly if they did smoke than those who did not. In general more men smoked than women.
+Our team saw that for both men and women there were more people that had excellent health that were non-smokers than those who did smoke. More people had poor health if they did smoke than those who did not. In general more men smoked than women.
 
 ###Our Conclusions 
 
@@ -53,15 +53,16 @@ ggplot(data = cdc) +
 
 
 Zandy Plot 
+```{r}
 ggplot(data = cdc) +
 geom_bar(mapping = aes(x = age, fill = genhlth
-
+```
 
 Katie Plot 
 
 ```{r}
 ggplot(data = cdc) +
-  geom_bar(mapping = aes(x = gender, fill() = genhlth)) +
+  geom_bar(mapping = aes(x = age, fill = genhlth)) +
   facet_grid(smoke100~genhlth)
 
 ```
@@ -78,5 +79,4 @@ ggplot(data = cdc) +
 
 The summary of who did what.
 
-
-
+* I, Katie Stewart, created a plot showing how general health and smoking were related and how they differ between age groups. The data showed that those who smoke and are over the age of around 40 are more susceptible to having poor or fair health. I used the geom_bar function to create my graph and added a color fill. I also used the facet_grid function to make it easier to distinguish between those who smoke and those who do not among there age groups. 
