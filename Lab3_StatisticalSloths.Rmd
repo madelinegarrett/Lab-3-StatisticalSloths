@@ -80,7 +80,8 @@ ggplot(data = cdc) +
 Kevin's Findings: 
 * There are more people reporting better health levels and less reporting poor health levels among those who have exercised.
 
-Team Summary:
+
+### Team Summary:
 
 * I, Katie Stewart, created a histogram showing how general health and smoking were related and how they differ between age groups. The data showed that those who smoke and are over the age of about 30 are more susceptible to having poor or fair health. I used the geom_histogram function to create my graph and added a color fill. I also used the facet_grid function to make it easier to distinguish between those who smoke and those who do not among their age groups. 
 
