@@ -14,7 +14,7 @@ cdc <- as_tibble(cdc)
 
 Overall question, why it’s important, and why that’s important
 ## What is the relationship between general health and smoking controlling for gender? 
-* This is an interesting question because the answer could help us to find a better understand of how smoking impacts ones general health and well being specifically looking at males and females. This is important because knowing this may help to discourage people from smoking, starting smoking, and encourage those who want to improve their general well being to stop smoking. 
+* This is an interesting question because the answer could help us to find a better understand of how smoking impacts one's general health and well being, specifically looking at males and females. This is important because knowing this may help to discourage people from continuing to smoke or starting smoking, and encourage those who want to improve their general well being to stop smoking. 
 
 (TEAM PLOT HERE ) *Check that this has all the requirments
 
