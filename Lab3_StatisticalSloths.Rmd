@@ -77,7 +77,8 @@ ggplot(data = cdc) +
   ylab("Age") + 
   theme(axis.text.x = element_text(angle=17))
 ```
-Kevin's Findings: Regardless of age, there is a distinct difference in the general health levels of those who have exercised in the last month and those who have not. There are more people reporting better health levels and less reporting poor health levels among those who have exercised.
+Kevin's Findings: 
+I, Kevin Luth, created a plot showing how general health and exercise are related and whether age affects this relationship. The data showed that regardless of age, there is a distinct difference in the general health levels of those who have exercised in the last month and those who have not. There are more people reporting better health levels and less reporting poor health levels among those who have exercised. I used the geom_jitter function and adjusted the color of the general health levels. In addition I used the facet_wrap function to clearly display the difference in the levels of those who exercise and those who do not. I also rotated the x tick mark labels so that they did not overlap and I changed the axis labels to the full word and not just the abbreviations.
 
 
 The summary of who did what.
