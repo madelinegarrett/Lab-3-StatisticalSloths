@@ -53,6 +53,9 @@ ggplot(data = cdc) +
 geom_bar(mapping = aes(x = age, fill = genhlth)) +
 facet_wrap(~ hlthplan) +
 xlab("age")
+
+Zandy's Findings:
+I, Zandy Boone, created a plot that shows the relationship with age and general health with the added varibale of the people having a health plan or not and how that affects general health. What I found was that as age goes up general health goes down while people with a healthplan overall, have better health than people who don't have a health plan. This plot confirms that as you get older, your health deteriorates and that people with a healthplan have better health overall than people without ahealth plan.
 ```
 
 Katie Plot 
