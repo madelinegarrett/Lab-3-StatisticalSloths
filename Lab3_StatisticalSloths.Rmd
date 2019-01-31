@@ -84,6 +84,6 @@ Team Summary:
 
 * I, Katie Stewart, created a histogram showing how general health and smoking were related and how they differ between age groups. The data showed that those who smoke and are over the age of about 30 are more susceptible to having poor or fair health. I used the geom_histogram function to create my graph and added a color fill. I also used the facet_grid function to make it easier to distinguish between those who smoke and those who do not among their age groups. 
 
-* I, Zandy Boone, created a plot that shows the relationship with age and general health with the added varibale of the people having a health plan or not and how that affects general health.
+* I, Zandy Boone, created a plot that shows the relationship with age and general health with the added varibale of the people having a health plan or not and how that affects general health. I added the facet_wrap to differentiate between people with a helthplan and those without and I also added a x label to make the graph easier to read.
 
 * I, Kevin Luth, created a plot showing how general health and exercise are related and whether age affects this relationship. The data showed that regardless of age, there is a distinct difference in the general health levels of those who have exercised in the last month and those who have not.
