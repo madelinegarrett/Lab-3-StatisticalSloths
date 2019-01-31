@@ -27,11 +27,11 @@ ggplot(data = cdc) +
 
 ### Our Findings
 
-* Our team saw that for both men and women there were more people with excellent health that were non-smokers than those who did smoke. More people had poor health if they did smoke than those who did not. In general more men smoked than women.
+* Our team saw that for both men and women there were more people with excellent health that were non-smokers than those who did smoke. More people had poor health if they did smoke than those who did not. In general, more men smoked than women.
 
 ### Our Conclusion
 
-* The data shows that smoking leads to a decrease in the general health levels of both genders. For both males and females, there was an increase in the number of reported fair and poor general health levels among smokers and among non-smokers, an increase in the number of reported excellent health levels. 
+* The data shows that smoking leads to a decrease in the general health levels of both genders. For both males and females, there was an increase in the number of reported fair and poor general health levels among smokers. Among non-smokers there was an increase in the number of reported excellent health levels. 
 
 ### Our Reccomendation 
 
