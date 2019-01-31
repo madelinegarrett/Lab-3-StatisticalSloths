@@ -47,9 +47,6 @@ ggplot(data = cdc) +
   geom_bar(mapping = aes(x = smoke100, fill = genhlth), position = "fill")
 ```
 
-
-
-
 Zandy Plot 
 ```{r}
 ggplot(data = cdc) +
@@ -64,7 +61,6 @@ ggplot(data = cdc) +
   facet_grid(smoke100~genhlth)
 
 ```
-
 
 Kevin's Plot 
 ```{r}
