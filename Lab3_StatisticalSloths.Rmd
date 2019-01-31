@@ -68,7 +68,7 @@ ggplot(data = cdc) +
 ```
 
 
-Kevin Plot 
+Kevin's Plot 
 ```{r}
 ggplot(data = cdc) + 
   geom_jitter(mapping = aes(x = genhlth, y = age, color = genhlth)) + 
@@ -77,7 +77,7 @@ ggplot(data = cdc) +
   ylab("Age") + 
   theme(axis.text.x = element_text(angle=17))
 ```
-
+Kevin's Findings: Regardless of age, there is a distinct difference in the general health levels of those who have exercised in the last month and those who have not. There are more people reporting better health levels and less reporting poor health levels among those who have exercised.
 
 
 The summary of who did what.
