@@ -67,6 +67,7 @@ ggplot(data = cdc) +
   facet_grid(smoke100~genhlth)
 ```
 Katie's Findings:
+Those who smoke and are older than 30 typically report the lowest health levels. Those who do not smoke tend to have significantly better health regardless of their age.
 
 Kevin's Plot 
 ```{r}
